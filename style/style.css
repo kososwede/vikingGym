@@ -6,8 +6,11 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-.body {
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
   line-height: 1.5;
 }
 
@@ -453,6 +456,7 @@ footer p {
     background-image: url("../images/about-img2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   .about {
@@ -461,14 +465,15 @@ footer p {
 
   h1.comp-name {
     font-size: 40px;
-    padding-top: 180px;
+    padding-top: 150px;
   }
   .sub-heading p {
     padding-left: 100px;
     font-size: 20px;
   }
+
   img.about-pic1 {
-    visibility: hidden;
+    display: none;
     position: absolute;
   }
   .about-gym .btn {
@@ -476,11 +481,10 @@ footer p {
     padding-bottom: 20px;
   }
 
-  div.about-gym {
+  .about-gym {
     padding-right: 0;
     padding-bottom: 40px;
   }
-
   .about-gym p {
     color: #fff;
     padding: 50px 30px;
