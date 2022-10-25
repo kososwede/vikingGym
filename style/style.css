@@ -60,7 +60,7 @@ ul {
 }
 
 .header {
-  background-image: url("/images/new-pt-img.jpg");
+  background-image: url("../images/new-pt-img.jpg");
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -450,7 +450,7 @@ footer p {
     padding-bottom: 20px;
   }
   .about .container {
-    background-image: url("/images/about-img2.jpg");
+    background-image: url("../images/about-img2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
